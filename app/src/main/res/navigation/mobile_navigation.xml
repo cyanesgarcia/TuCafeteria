@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.cafeteria.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_bocadillos"
+        android:name="com.example.cafeteria.BocadillosFragment"
+        android:label="@string/menu_bocadillos"
+        tools:layout="@layout/fragment_bocadillos" />
+
+    <fragment
+        android:id="@+id/nav_bebidas"
+        android:name="com.example.cafeteria.BebidasFragment"
+        android:label="@string/menu_bebidas"
+        tools:layout="@layout/fragment_bebidas" />
+
+    <fragment
+        android:id="@+id/nav_bolleria"
+        android:name="com.example.cafeteria.BolleriaFragment"
+        android:label="@string/menu_bolleria"
+        tools:layout="@layout/fragment_bolleria"/>
+    <fragment
+        android:id="@+id/nav_snacks"
+        android:name="com.example.cafeteria.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.cafeteria.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.cafeteria.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+</navigation>
