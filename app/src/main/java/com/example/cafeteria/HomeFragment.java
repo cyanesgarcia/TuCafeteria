@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
@@ -31,6 +32,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.bocadillos) {
+
+            Fragment newFragment = new BocadillosFragment();
+            FragmentTransaction fragmentTransaction = this.getFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.nav_host_fragment, newFragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
         }
     }
 
