@@ -22,6 +22,11 @@
         android:name="com.example.cafeteria.BebidasFragment"
         android:label="@string/menu_bebidas"
         tools:layout="@layout/fragment_bebidas" />
+    <fragment
+        android:id="@+id/nav_sandwiches"
+        android:name="com.example.cafeteria.SandwichesFragment"
+        android:label="@string/menu_sandwiches"
+        tools:layout="@layout/fragment_sandwiches" />
 
     <fragment
         android:id="@+id/nav_bolleria"
@@ -45,5 +50,6 @@
         android:name="com.example.cafeteria.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+
 
 </navigation>

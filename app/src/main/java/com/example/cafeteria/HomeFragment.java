@@ -17,12 +17,16 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         View view = inflater.inflate(R.layout.fragment_inicio, container, false);
         Button bocadillos = (Button) view.findViewById(R.id.bocadillos);
         Button bebidas = (Button) view.findViewById(R.id.bebidas);
+        Button croissants = (Button) view.findViewById(R.id.croissants);
+        Button sandwiches = (Button) view.findViewById(R.id.sandwiches);
         Button snacks = (Button) view.findViewById(R.id.snacks);
         Button bolleria = (Button) view.findViewById(R.id.bolleria);
         bocadillos.setOnClickListener(this);
         bebidas.setOnClickListener(this);
         snacks.setOnClickListener(this);
         bolleria.setOnClickListener(this);
+        sandwiches.setOnClickListener(this);
+        croissants.setOnClickListener(this);
         return view;
 
     }

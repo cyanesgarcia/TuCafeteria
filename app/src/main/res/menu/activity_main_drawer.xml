@@ -17,6 +17,14 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_bebidas" />
         <item
+            android:id="@+id/nav_croissants"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_croissant" />
+        <item
+            android:id="@+id/nav_sandwiches"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_sandwiches" />
+        <item
             android:id="@+id/nav_bolleria"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_bolleria" />

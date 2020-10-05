@@ -11,6 +11,8 @@
     <string name="menu_bocadillos">Bocadillos</string>
     <string name="menu_bebidas">Bebidas</string>
     <string name="menu_bolleria">Bolleria</string>
+    <string name="menu_croissant">Croissant</string>
+    <string name="menu_sandwiches">Sandwiches</string>
     <string name="menu_snacks">Snacks</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
